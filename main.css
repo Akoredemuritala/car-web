@@ -1,0 +1,105 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+label, input, select{
+    display: block;
+}
+
+.container{
+    /* background-color: white; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-box{
+    width: 50%;
+    /* background-color: whitesmoke; */
+    padding: 40px 20px;
+    /* border: 1px solid #222; */
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.form-group{
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+}
+
+.form-group label{
+    margin-bottom: 10px;
+}
+
+.form-group input, select{
+    padding: 10px 7px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+input:focus{
+    outline: none;
+}
+
+.form-link{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.form-link span:hover{
+    text-decoration: underline;
+}
+
+.form-link a{
+    color: blue;
+}
+
+.submit-btn{
+    background-color: #474fa0;
+    color: white;
+    font-size: 15px;
+
+}
+
+.submit-btn:hover{
+    background-color:#fe5b3d;
+}
+
+
+
+@media (max-width:600px){
+    .form-group{
+        width: 100%;
+    }
+
+    .form-box{
+        width: 100%;
+    }
+
+    .copyright{
+        flex-direction: column;
+    }
+    .newsletter .box{
+        width: 300px;
+    }
+
+}
